@@ -4,9 +4,10 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
-import com.example.fifapp.presentation.login.LoginScreen
-import com.example.fifapp.presentation.signup.SignUpScreen
-import com.example.fifapp.presentation.home.HomeScreen
+import com.example.fifapp.ui.presentation.LoginScreen
+import com.example.fifapp.ui.presentation.SignUpScreen
+import com.example.fifapp.ui.presentation.HomeScreen
+import com.example.fifapp.ui.presentation.SettingsScreen
 import com.google.firebase.auth.FirebaseAuth
 
 @Composable
@@ -44,7 +45,7 @@ fun NavigationWrapper(navHostController: NavHostController, auth: FirebaseAuth) 
         }
 
         composable("home") {
-            HomeScreen(
+            SettingsScreen(
                 onLogout = {
                     auth.signOut()
                     navHostController.navigate("login") {

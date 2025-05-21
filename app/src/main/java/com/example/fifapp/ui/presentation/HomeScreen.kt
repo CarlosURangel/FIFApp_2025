@@ -1,4 +1,4 @@
-package com.example.fifapp.presentation.home
+package com.example.fifapp.ui.presentation
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -15,16 +15,12 @@ import androidx.compose.ui.unit.sp
 
 
 @Composable
-fun HomeScreen(onLogout: () -> Unit) {
+fun HomeScreen() {
     Column(
         modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text("Bienvenido a la pantalla principal", fontSize = 20.sp)
-        Spacer(modifier = Modifier.height(24.dp))
-        Button(onClick = onLogout) {
-            Text("Cerrar sesión")
-        }
     }
 }
