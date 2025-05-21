@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.School
 import androidx.compose.material.icons.filled.Star
@@ -64,7 +65,7 @@ fun Topbar() {
         actions = {
             IconButton(onClick = { /* Acción para guardados */ }) {
                 Icon(
-                    imageVector = Icons.Default.Star,
+                    imageVector = Icons.Default.Bookmark,
                     contentDescription = "Guardados",
                     tint = Color.White,
                     modifier = Modifier.size(24.dp)
