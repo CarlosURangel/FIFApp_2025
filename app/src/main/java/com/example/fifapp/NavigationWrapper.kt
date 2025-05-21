@@ -6,7 +6,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import com.example.fifapp.ui.presentation.LoginScreen
 import com.example.fifapp.ui.presentation.SignUpScreen
-import com.example.fifapp.ui.presentation.HomeScreen
 import com.example.fifapp.ui.presentation.SettingsScreen
 import com.google.firebase.auth.FirebaseAuth
 

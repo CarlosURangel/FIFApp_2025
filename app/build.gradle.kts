@@ -42,7 +42,12 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.compose.material3:material3:1.2.0")// ¡Material 3!
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
+    implementation(platform("androidx.compose:compose-bom:2023.10.01"))  // BOM simplifica versiones
+    implementation("androidx.compose.foundation:foundation") // Ya no necesitas especificar versión
+    implementation("androidx.compose.material3:material3:1.2.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.crashlytics)
     implementation(libs.firebase.auth)
@@ -56,6 +61,12 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.storage.ktx)
+    implementation(libs.volley)
+    implementation(libs.androidx.espresso.core)
+    implementation(libs.play.services.base)
+    implementation(libs.play.services.base)
+    implementation(libs.play.services.base)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

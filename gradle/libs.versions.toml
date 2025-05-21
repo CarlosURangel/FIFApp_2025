@@ -12,6 +12,9 @@ firebaseBom = "33.14.0"
 services = "4.4.2"
 crashlytics = "3.0.3"
 navigationCompose = "2.9.0"
+firebaseStorageKtx = "21.0.1"
+volley = "1.2.1"
+playServicesBase = "18.0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,6 +37,9 @@ firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
 firebase-auth = { module= "com.google.firebase:firebase-auth-ktx" }
 
 androidx-navigation-compose = {module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose"}
+firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx", version.ref = "firebaseStorageKtx" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+play-services-base = { group = "com.google.android.gms", name = "play-services-base", version.ref = "playServicesBase" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

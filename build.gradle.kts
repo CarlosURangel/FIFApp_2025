@@ -6,3 +6,10 @@ plugins {
     alias(libs.plugins.googleServices) apply false
     alias(libs.plugins.crashlytics) apply false
 }
+
+buildscript{
+    dependencies{
+        classpath("com.google.gms:google-services:4.4.2")
+        classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0")
+    }
+}

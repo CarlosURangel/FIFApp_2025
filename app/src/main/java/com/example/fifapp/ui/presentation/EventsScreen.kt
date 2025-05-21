@@ -7,9 +7,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.fifapp.ui.components.Topbar
 
 @Composable
 fun EventsScreen() {
+    Column(modifier = Modifier.fillMaxSize()) {
+        Topbar() // TopBar personalizado
+        // Resto de tu contenido...
+    }
     Box(
         modifier = Modifier
             .fillMaxSize()
