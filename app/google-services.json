@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "11213299099",
+    "project_id": "appfif-e4e70",
+    "storage_bucket": "appfif-e4e70.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11213299099:android:19cea122f6f0391b40553e",
+        "android_client_info": {
+          "package_name": "com.example.fifapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSlN3TvKRugfhnLIfURt8btPBCS0wa15s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11213299099:android:d26ec8142dc1d36340553e",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSlN3TvKRugfhnLIfURt8btPBCS0wa15s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
